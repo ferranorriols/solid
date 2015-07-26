@@ -12,7 +12,9 @@ class Guzzle implements BrowserDriverInterface
         $this->guzzle = $guzzle;
     }
 
-    public function boot() {}
+    public function boot()
+    {
+    }
 
     public function visit($url)
     {

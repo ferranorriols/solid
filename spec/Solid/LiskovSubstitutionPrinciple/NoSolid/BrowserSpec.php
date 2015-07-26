@@ -3,7 +3,6 @@
 namespace spec\Solid\LiskovSubstitutionPrinciple\NoSolid;
 
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 use Solid\LiskovSubstitutionPrinciple\NoSolid\Guzzle;
 
 class BrowserSpec extends ObjectBehavior

@@ -2,7 +2,6 @@
 
 namespace Solid\InterfaceSegregationPrinciple\NoSolid;
 
-
 class Atm
 {
     public function __construct(Messenger $messenger)
@@ -15,5 +14,4 @@ class Atm
         $this->messenger->askForCard();
         $this->messenger->askForPin();
     }
-
 }

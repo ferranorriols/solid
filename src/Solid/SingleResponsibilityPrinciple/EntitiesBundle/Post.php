@@ -6,6 +6,5 @@ class Post
 {
     public function getId()
     {
-
     }
 }

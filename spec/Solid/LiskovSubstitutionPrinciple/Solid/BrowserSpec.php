@@ -3,13 +3,10 @@
 namespace spec\Solid\LiskovSubstitutionPrinciple\Solid;
 
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 use Solid\LiskovSubstitutionPrinciple\Solid\AdapterBrowser;
-
 
 class BrowserSpec extends ObjectBehavior
 {
-
     public function it_goes_to_the_url(
         AdapterBrowser $browser
     ) {

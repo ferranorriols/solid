@@ -3,7 +3,6 @@
 namespace spec\Solid\InterfaceSegregationPrinciple\NoSolid;
 
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 use Solid\InterfaceSegregationPrinciple\NoSolid\Messenger;
 
 class AtmSpec extends ObjectBehavior

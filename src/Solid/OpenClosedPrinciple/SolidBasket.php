@@ -22,8 +22,8 @@ class SolidBasket
     protected $factory;
 
     /**
-     * @param Factory\Payment $factory
-     * @param array $items
+     * @param Factory\Payment  $factory
+     * @param array            $items
      * @param PaymentInterface $payment
      */
     public function __construct(Factory\Payment $factory, array $items, PaymentInterface $payment)

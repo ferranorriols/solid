@@ -3,7 +3,6 @@
 namespace spec\Solid\OpenClosedPrinciple;
 
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 use Solid\OpenClosedPrinciple\Factory;
 use Solid\OpenClosedPrinciple\Item;
 use Solid\OpenClosedPrinciple\Payment\PaymentInterface;

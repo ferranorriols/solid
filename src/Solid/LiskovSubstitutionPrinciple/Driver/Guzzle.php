@@ -6,6 +6,5 @@ class Guzzle
 {
     public function openUrl($url)
     {
-
     }
 }

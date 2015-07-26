@@ -3,7 +3,6 @@
 namespace spec\Solid\InterfaceSegregationPrinciple\Solid;
 
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 use Solid\InterfaceSegregationPrinciple\Solid\LoginMessenger;
 
 class AtmSpec extends ObjectBehavior

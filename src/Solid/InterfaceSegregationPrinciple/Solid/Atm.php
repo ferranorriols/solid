@@ -14,5 +14,4 @@ class Atm
         $this->messenger->askForCard();
         $this->messenger->askForPin();
     }
-
 }
